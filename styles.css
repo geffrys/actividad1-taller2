@@ -1,0 +1,109 @@
+/* common */
+html{
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* utils */
+
+div-center {
+    display: inline-flex;
+    align-content: center;
+}
+
+/* titulo */
+header h3{
+    margin-left: 30px;
+    color: white;
+}
+.body-login{
+    background-color: black;
+}
+.body-index{
+    background-color: lightblue;
+}
+/* icono de usuario */
+.user-ico{
+    width: 100%;
+    
+}
+
+.user-ico img{
+    width: 200px;
+
+}
+
+/* referente al borde de la tarjeta principal */
+.border-main-container{
+    border: solid 1px black;
+    border-radius: 5%;
+    margin-top: 30px;
+    width: 400px;
+    padding: 40px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+/* header */
+.header{
+    background-color: black;
+}
+/* icono principal */
+.main-page-icon{
+    width: 45px;
+    margin-left: 20px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: rgba(26, 25, 25, 0.603);
+    margin-top: auto;
+    color: white;
+    /* Height of the footer */
+}
+
+/* iconos social media */
+
+.media-image{
+    width: 100px;
+    box-sizing: border-box;
+}
+.media-image a img{
+    width: 50px;
+}
+
+
+
+
+/* segundo form */
+
+
+/* tabla */
+.table-container td,
+.table-container th{
+    text-align: center;
+}
+.table-container table{
+    border: 3px solid black;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.imagen-tabla{
+    width: 70px;
+}
+.small-warning-name,
+.small-warning-date{
+    color: red;
+}
