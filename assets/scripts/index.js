@@ -9,7 +9,7 @@ getName()
 
 
 
-const imagesRoute = '/assets/images/userAvatars/'
+const imagesRoute = 'assets/images/userAvatars/'
 
 $(document).ready(function () {
 
