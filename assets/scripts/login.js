@@ -3,6 +3,6 @@ const onSubmit = (e) => {
     console.log(name);
     localStorage.setItem("name", ` ${name} `)
     console.log(localStorage.getItem("name"));
-    window.location.href='/index.html'
+    window.location.href='/mainPage.html'
 }
 
